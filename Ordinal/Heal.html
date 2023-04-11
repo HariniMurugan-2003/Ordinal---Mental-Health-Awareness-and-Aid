@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Heal</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+	}
+	
+	</style>
+	
+	<header>   
+	
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="#"><span class="fa fa-phone"></span>+44 0799 6789 1234</a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="#" class="icon fa fa-facebook"></a></li>
+					<li><a href="#" class="icon fa fa-twitter"></a></li>
+					<li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+					<li><a href="#" class="icon fa fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Heal.html"><span>Heal</span></a></li>
+                        <li><a href="self.html">Self-Improvement</a></li>
+                        <li><a href="mood.html">Mood Tracker</a></li>
+                        <li><a href="appointment.html">Appointments</a></li>
+						<li><a href="helpline.html">Helpline</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        </style>
+
+        
+    </header>
+    
+    
+    <div class="container">
+    	<ul class="breadcrumb">
+  			<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+  			<li class="active">Heal</li>
+		</ul>
+	</div> 
+
+	<div class="pricing-table">
+    	<div class="container">
+    		<div class="table">
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Domestic Violence</h3>
+    	
+    						<p>Domestic abuse, also called "domestic violence" or "intimate partner violence", can be defined as a pattern of behavior in any relationship that is used to gain or maintain power and control over an intimate partner. Abuse is physical, sexual, emotional, economic or psychological actions or threats of actions that influence another person. This includes any behaviors that frighten, intimidate, terrorize, manipulate, hurt, humiliate, blame, injure, or wound someone. Domestic abuse can happen to anyone of any race, age, sexual orientation, religion, or gender. It can occur within a range of relationships including couples who are married, living together or dating. Domestic violence affects people of all socioeconomic backgrounds and education levels. 
+
+								Anyone can be a victim of domestic violence, regardless of age, race, gender, sexual orientation, faith or class
+								
+								Victims of domestic abuse may also include a child or other relative, or any other household member.</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    
+    							<li>NO ONE deserves to be abused. The abuse is not your fault. You are not alone.</li>
+    							<li>DON’T worry about threats to your visa. We have information about visa options for your situation</li>
+    							<li>DON’T worry if you do not speak the local language. We can get you help in many Languages.</li>
+    							<li><a href="#"><button type="button">Open</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+
+
+	
+    <!--<div class="pricing-table">
+    	<div class="container">
+    		<div class="table">
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Personal</h3>
+    						<h1><span class="symbol">&pound</span>4<span class="monthly">/Mo</span></h1>
+    						<p>Billed annually at &pound48</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>10GB Storage</li>
+    							<li>5 Email Addresses</li>
+    							<li>1 Domain</li>
+    							<li>24/7 Support</li>
+    							<li><a href="#"><button type="button">Buy Now</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+
+				<div class="pricing-table">
+    	<div class="container">
+    		<div class="table">
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Personal</h3>
+    						<h1><span class="symbol">&pound</span>4<span class="monthly">/Mo</span></h1>
+    						<p>Billed annually at &pound48</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>10GB Storage</li>
+    							<li>5 Email Addresses</li>
+    							<li>1 Domain</li>
+    							<li>24/7 Support</li>
+    							<li><a href="#"><button type="button">Buy Now</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Business</h3>
+    						<h1><span class="symbol">&pound</span>12<span class="monthly">/Mo</span></h1>
+    						<p>Billed annually at &pound144</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>100GB Storage</li>
+    							<li>20 Email Addresses</li>
+    							<li>10 Domains</li>
+    							<li>24/7 Support</li>
+    							<li><a href="#"><button type="button">Buy Now</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    			
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Professional</h3>
+    						<h1><span class="symbol">&pound</span>36<span class="monthly">/Mo</span></h1>
+    						<p>Billed annually at &pound432</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>Unlimited Storage</li>
+    							<li>100 Email Addresses</li>
+    							<li>25 Domains</li>
+    							<li>24/7 Support</li>
+    							<li>
+									<button id="toggle-btn">Open</button>
+									<div id="collapsible-content" style="display: none;">
+									  <p>"You don't have to control your thoughts. You just have to stop letting them control you." — Dan Millman
+										Emotional healing is the process of acknowledging, allowing, accepting, integrating, and processing painful life experiences and strong emotions. It may involve empathy, self-regulation, self-compassion, self-acceptance, mindfulness, and integration.Many people have a tendency to want to control the process of emotional healing by minimizing the pain and controlling their emotions, but this can actually inhibit the process of emotional healing.Emotional healing takes the time that it takes—which may be longer or shorter than you expect or plan on—if you allow it to be fully acknowledged, felt, moved through, and processed.No matter what the trigger for your difficult emotions, emotional healing is possible in all of these scenarios.
+We won't sugarcoat it—emotional healing is not an easy process, but it can be incredibly rewarding for many people and help them find clarity and inspiration in life beyond whatever it is they are healing from. Here are some questions you might want to ask yourself as you embark on your healing journey.
+What are you healing from? Maybe you don't know, but you know you'd like things to be different:
+How is not healing affecting your life?
+What do you want your life to look like after you've healed?
+If you woke up tomorrow, how would you know you had healed?
+Are you ready to heal?
+Are you willing to sit through some discomfort in service of healing?
+What will help you on your emotional healing journey?
+How has not yet healing served you?
+What can you do to make your healing journey gentle for yourself?
+
+									</p>
+									</div>
+									
+									<script>
+									  const toggleBtn = document.querySelector("#toggle-btn");
+									  const collapsibleContent = document.querySelector("#collapsible-content");
+									
+									  toggleBtn.addEventListener("click", function() {
+										if (collapsibleContent.style.display === "none") {
+										  collapsibleContent.style.display = "block";
+										} else {
+										  collapsibleContent.style.display = "none";
+										}
+									  });
+									</script></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div> -->
+	<!--<button id="toggle-btn">Open/Close</button>
+<div id="collapsible-content" style="display: none;">
+  <p>This is some content that can be opened or closed using the button.</p>
+</div>
+
+<script>
+  const toggleBtn = document.querySelector("#toggle-btn");
+  const collapsibleContent = document.querySelector("#collapsible-content");
+
+  toggleBtn.addEventListener("click", function() {
+    if (collapsibleContent.style.display === "none") {
+      collapsibleContent.style.display = "block";
+    } else {
+      collapsibleContent.style.display = "none";
+    }
+  });
+</script>  -->
+
+
+<!--<div class="featured-list">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-area-chart"></i>
+					</div>
+					<h3>Hendrerit Instructior</h3>
+					<hr>
+					<p>Quo eius liber affert id. Id pro summo soluta apeirian, eum ut putent lobortis electram, justo facilis delicatissimi mea ad.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-cogs"></i>
+					</div>
+					<h3>Prompta Principes</h3>
+					<hr>
+					<p>Te laoreet fastidii instructior vix, case mucius intellegebat sea ei. Sit an audiam saperet labores, te odio elitr sit, ne mea scripta aliquam.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-pie-chart"></i>
+					</div>
+					<h3>Iusto Soluta Inciderint</h3>
+					<hr>
+					<p>Nec ferri rebum ei. Officiis dissentiet eum ut, no vero mucius vix. Ne usu movet placerat, qui ne expetendis dissentiunt consectetuer.</p>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-calendar"></i>
+					</div>
+					<h3>Apeirian Molestiae</h3>
+					<hr>
+					<p>Nulla iuvaret cu est, an euismod accusata his, has an evertitur inciderint. An est dicta ludus oblique. Ei sea nominati rationibus.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-globe"></i>
+					</div>
+					<h3>Magna Exerci Putant</h3>
+					<hr>
+					<p>Quo illud persequeris at, inani discere dissentias no eum. At ius odio iuvaret. Mea error nihil id. Clita dolorum necessitatibus ea per.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-heart"></i>
+					</div>
+					<h3>Timeam Sententiae</h3>
+					<hr>
+					<p>Ad cetero mnesarchum accommodare usu, at mei posse aliquam invidunt. Ea his feugait pertinacia, ex everti platonem facilisis his.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>Contrast</h3>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, qui facilis epicuri at. Vis quando timeam ex, alia natum ut vix. At alii eros commune ius, discere nominati usu in, te vis dictas dolorum facilisi. Ei his semper laoreet suscipiantur.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>Etiam admodum qualisque cu nec, autem impedit repudiandae usu ut. Ea platonem abhorreant nam, purto iudico vix et, eu est alia dicant perpetua.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							Trafalgar Square, Westminster, London WC2N 5DN
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							0800 240 0905
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							support@yourdomain.com
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	-->
+
+
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+
+
+</body>
+
+</html>
