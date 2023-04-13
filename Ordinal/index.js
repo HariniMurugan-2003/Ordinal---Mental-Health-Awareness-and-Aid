@@ -1,227 +1,227 @@
 const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
+        question: "Little interest or pleasure in doing things",
+        optionA: "Not at all",
+        optionB: "Several Days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionA"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
-        correctOption: "optionB"
+        question: "Feeling down, depressed, or hopeless",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
     },
 
     {
         question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "Trouble falling or staying asleep, or sleeping too much",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
-        correctOption: "optionA"
+        question: " Feeling tired or having little energy",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
+        question: "Poor appetite or overeating",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
-        correctOption: "optionA"
+        question: "Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Trouble concentrating on things, such as reading the newspaper or watching television",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
     },
 
     {
         question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: "Moving or speaking so slowly that other people could have noticed ",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionD"
     },
 
     {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
+        question: "Thoughts that you would be better off dead, or of hurting yourself",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
     },
 
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
+        question: "If you've had any days with issues above, how difficult have these problems made it for you at work, home, school, or with other people?",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
     },
 
 
     {
         question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionB"
     },
 
     {
         question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionD"
     },
 
     {
         question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionA"
     },
 
     {
         question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionC"
     },
 
     {
         question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionA"
     },
 
     {
         question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionC"
     },
 
     {
         question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionD"
     },
 
     {
         question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionA"
     },
 
     {
         question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionD"
     },
 
     {
         question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionB"
     },
 
     {
         question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionB"
     },
 
     {
         question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionC"
     },
 
     {
         question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
         correctOption: "optionC"
     }
 
