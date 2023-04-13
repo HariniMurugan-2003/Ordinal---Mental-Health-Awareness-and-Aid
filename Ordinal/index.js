@@ -284,7 +284,7 @@ function checkForAnswer() {
     //checking if checked radio button is same as answer
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
-            document.getElementById(correctOption).style.backgroundColor = "green"
+            //document.getElementById(correctOption).style.backgroundColor = "green"
             playerScore++ //adding to player's score
             indexNumber++ //adding 1 to index so has to display next question..
             //set to delay question number till when next question loads
@@ -295,8 +295,8 @@ function checkForAnswer() {
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
             const wrongLabelId = option.labels[0].id
-            document.getElementById(wrongLabelId).style.backgroundColor = "green"
-            document.getElementById(correctOption).style.backgroundColor = "green"
+            //document.getElementById(wrongLabelId).style.backgroundColor = "green"
+            //document.getElementById(correctOption).style.backgroundColor = "green"
             wrongAttempt++ //adds 1 to wrong attempts 
             indexNumber++
             //set to delay question number till when next question loads
@@ -354,7 +354,7 @@ function handleEndGame() {
     }
    
     
-    else if (playerScore >= 7) {
+    else if (playerScore > 3) {
         remark = "Thank You for taking our quiz. We are very sorry to inform you but we feel like you will do better if you get some help to deal with your traumas and low points. But that being said, we really appreciate your efforts to get better by taking small steps like this test. "
         remarkColor = "white"
     }
