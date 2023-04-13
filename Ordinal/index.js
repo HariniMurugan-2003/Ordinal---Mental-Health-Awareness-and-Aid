@@ -109,16 +109,7 @@ const questions = [
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "Not at all",
-        optionB: "Several days",
-        optionC: "More than half of the days",
-        optionD: "Nearly every day",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "Which national team won the football World cup in 2018 ?",
+        question: "I find it very hard to unwind, relax or sit still",
         optionA: "Not at all",
         optionB: "Several days",
         optionC: "More than half of the days",
@@ -127,43 +118,7 @@ const questions = [
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "Not at all",
-        optionB: "Several days",
-        optionC: "More than half of the days",
-        optionD: "Nearly every day",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "Not at all",
-        optionB: "Several days",
-        optionC: "More than half of the days",
-        optionD: "Nearly every day",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Not at all",
-        optionB: "Several days",
-        optionC: "More than half of the days",
-        optionD: "Nearly every day",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Not at all",
-        optionB: "Several days",
-        optionC: "More than half of the days",
-        optionD: "Nearly every day",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
+        question: "I have had stomach problems, such as feeling sick or having stomach cramps",
         optionA: "Not at all",
         optionB: "Several days",
         optionC: "More than half of the days",
@@ -172,16 +127,7 @@ const questions = [
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Not at all",
-        optionB: "Several days",
-        optionC: "More than half of the days",
-        optionD: "Nearly every day",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
+        question: "I have been irritable and easily become annoyed",
         optionA: "Not at all",
         optionB: "Several days",
         optionC: "More than half of the days",
@@ -190,39 +136,93 @@ const questions = [
     },
 
     {
-        question: "Which Planet is the hottest ?",
+        question: "I have experienced shortness of breath",
         optionA: "Not at all",
         optionB: "Several days",
         optionC: "More than half of the days",
         optionD: "Nearly every day",
-        correctOption: "optionB"
+        correctOption: "optionD"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
+        question: "I have felt dizzy and unsteady at times",
         optionA: "Not at all",
         optionB: "Several days",
         optionC: "More than half of the days",
         optionD: "Nearly every day",
-        correctOption: "optionB"
+        correctOption: "optionD"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
+        question: "I have felt panicked and overwhelmed by things in my life",
         optionA: "Not at all",
         optionB: "Several days",
         optionC: "More than half of the days",
         optionD: "Nearly every day",
-        correctOption: "optionC"
+        correctOption: "optionD"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
+        question: "I have felt nervous and on edge",
         optionA: "Not at all",
         optionB: "Several days",
         optionC: "More than half of the days",
         optionD: "Nearly every day",
-        correctOption: "optionC"
+        correctOption: "optionD"
+    },
+
+    {
+        question: "I have had trembling hands",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "I seem to be constantly worrying about things",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "How often do you feel you have nobody to talk to?",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "How often do you feel as if nobody really understands you?",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "How often do you feel completely alone?",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "How often do you feel it is difficult for you to make friends?",
+        optionA: "Not at all",
+        optionB: "Several days",
+        optionC: "More than half of the days",
+        optionD: "Nearly every day",
+        correctOption: "optionD"
     }
 
 ]
@@ -295,7 +295,7 @@ function checkForAnswer() {
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
             const wrongLabelId = option.labels[0].id
-            document.getElementById(wrongLabelId).style.backgroundColor = "red"
+            document.getElementById(wrongLabelId).style.backgroundColor = "green"
             document.getElementById(correctOption).style.backgroundColor = "green"
             wrongAttempt++ //adds 1 to wrong attempts 
             indexNumber++
@@ -350,13 +350,13 @@ function handleEndGame() {
     // condition check for player remark and remark color
     if (playerScore <= 3) {
         remark = "Thank You for taking our quiz. You seem to be doing well considering everything you have been through. Keep going and be the best version of yourself. Healing is not done in a day but you seem to find your way through it pretty well. We are very proud of you for everything you have achieved. "
-        remarkColor = "green"
+        remarkColor = "white"
     }
    
     
     else if (playerScore >= 7) {
         remark = "Thank You for taking our quiz. We are very sorry to inform you but we feel like you will do better if you get some help to deal with your traumas and low points. But that being said, we really appreciate your efforts to get better by taking small steps like this test. "
-        remarkColor = "red"
+        remarkColor = "white"
     }
     const playerGrade = (playerScore / 10) * 100
 

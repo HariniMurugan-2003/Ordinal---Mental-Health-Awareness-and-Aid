@@ -1366,14 +1366,14 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-content-container{
-    height: 20rem;
+    height: 45rem;
     width: 25rem;
     background-color: rgb(43, 42, 42);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .modal-content-container h1{
@@ -1386,7 +1386,7 @@ input[type=radio]:checked ~ .option {
 .grade-details{
     width: 15rem;
     height: 10rem;
-    display: flex;
+    display: inside;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -1398,7 +1398,7 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-button-container{
-    height: 2rem;
+    height: 0rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1406,7 +1406,7 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-button-container button{
-    width: 10rem;
+    width: 20rem;
     height: 2rem;
     background: none;
     outline: none;

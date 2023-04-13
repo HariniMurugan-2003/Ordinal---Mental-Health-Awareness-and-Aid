@@ -85,15 +85,15 @@ main{
     overflow: hidden;
 }
 span label{
-    width: 100%;
+    width: 300%;
     height: 300%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: transform 0.3s;
-    font-weight: 50;
-    color: rgb(23, 10, 10);
+    transition: transform 0.1s;
+    font-weight: 600;
+    color: rgb(11, 3, 3);
 }
 
 span label:hover{
@@ -140,8 +140,8 @@ input[type=radio]:checked ~ .option {
     z-index: 1; 
     left: 0;
     top: 0;
-    width: 800px; 
-    height: 800px; 
+    width: 200px; 
+    height: 200px; 
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
@@ -172,17 +172,15 @@ input[type=radio]:checked ~ .option {
 
 .grade-details{
     width: 15rem;
-    height: 15rem;
+    height: 10rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
 .grade-details p{
     color: white;
-    width: 10rem;
-    height: 15rem;
     text-align: center;
     
 }
