@@ -214,6 +214,23 @@
 				float: left;
 			}
 			}
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+            .button {
+                margin: 10px;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                font-size: 18px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
 			
         
         </style>
@@ -222,33 +239,38 @@
     </header> 
 
     
-    <body onload="NextQuestion(0)">
+    <body>
         <main>
+            <div class="button-container">
+                <button class="button">Button 1</button>
+                <button class="button">Button 2</button>
+                <button class="button">Button 3</button>
+            </div>
             <!-- creating a modal for when quiz ends -->
-            <div class="modal-container" id="score-modal">
+            <!-- <div class="modal-container" id="score-modal">
     
                 <div class="modal-content-container">
     
                     
     
                     <div class="grade-details">
-                        <p><span id="remarks"></span></p>
+                        <p><span id="remarks"></span></p> -->
                         <!--<p>Attempts : 10</p>
                         <p>Wrong Answers : <span id="wrong-answers"></span></p>
                         <p>Right Answers : <span id="right-answers"></span></p>
                         <p>Grade : <span id="grade-percentage"></span>%</p>-->
                         
-                    </div>
+                    <!-- </div>
         
                     <div class="modal-button-container">
                         <button onclick="closeScoreModal()">Continue</button>
                     </div>
     
                 </div>
-            </div>
+            </div> -->
     <!-- end of modal of quiz details-->
     
-            <div class="game-quiz-container">
+            <!-- <div class="game-quiz-container">
     
                 <div class="game-details-container">
                     <h1>Score : <span id="player-score"></span> / 10</h1>
@@ -304,7 +326,7 @@
                     <button onclick="handleNextQuestion()">Next Question</button>
                 </div>
     
-            </div>
+            </div>-->
         </main>
         <script src="index.js"></script>
     </body>
