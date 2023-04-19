@@ -113,27 +113,44 @@
     						<!--<li><a href="#"><button type="button">Open</button></a></li> -->
 								<br>
 							    <audio src="audio.mp3" id="myAudio"></audio> 
-								<button onClick="playMyAudio()">Tamil</button>
+								<button onClick="TamilDAaudio()">Tamil</button>
+								
 								<script>
-								  function playMyAudio(){
-									document.getElementById("myAudio").play();
-								  }
+								
+								var myAudio = document.getElementById("myAudio");
+								function TamilDAaudio(){
+									if(myAudio.paused){
+										myAudio.play();
+									}else{
+										myAudio.pause();
+									}
+								}
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="EnglishDA.mp3" id="eng"></audio>
 								<button onClick="EngDAaudio()">English</button>
 								<script>
-								  function EngDAaudio(){
-									document.getElementById("eng").play();
+								var eng = document.getElementById("eng");
+								function EngDAaudio(){
+									if(eng.paused){
+										eng.play();
+									}else{
+										eng.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="HindiDA.mp3" id="hindi"></audio>
 								<button onClick="HindiDAAudio()">Hindi</button>
 								<script>
-								  function HindiDAAudio(){
-									document.getElementById("hindi").play();
-								  }
+								  var hindi = document.getElementById("hindi");
+								function HindiDAAudio(){
+									if(hindi.paused){
+										hindi.play();
+									}else{
+										hindi.pause();
+									}
+								}	
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
     						</ul>
@@ -160,24 +177,39 @@
 							    <audio src="TamilSH.mp3" id="tamilsh"></audio> 
 								<button onClick="selfharmtamil()">Tamil</button>
 								<script>
-								  function selfharmtamil(){
-									document.getElementById("tamilsh").play();
+								  var tamilsh = document.getElementById("tamilsh");
+								function selfharmtamil(){
+									if(tamilsh.paused){
+										tamilsh.play();
+									}else{
+										tamilsh.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="SHenglish.mp3" id="englishsh"></audio>
 								<button onClick="selfharmenglish()">English</button>
 								<script>
-								  function selfharmenglish(){
-									document.getElementById("englishsh").play();
+								  var englishsh = document.getElementById("englishsh");
+								function selfharmenglish(){
+									if(englishsh.paused){
+										englishsh.play();
+									}else{
+										englishsh.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="HindiSH.mp3" id="hindish"></audio>
 								<button onClick="selfharmhindi()">Hindi</button>
 								<script>
-								  function selfharmhindi(){
-									document.getElementById("hindish").play();
+								  var hindish = document.getElementById("hindish");
+								function selfharmhindi(){
+									if(hindish.paused){
+										hindish.play();
+									}else{
+										hindish.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -206,24 +238,39 @@
 							    <audio src="TamilAN.mp3" id="tamilan"></audio> 
 								<button onClick="anxietytamil()">Tamil</button>
 								<script>
-								  function anxietytamil(){
-									document.getElementById("tamilan").play();
+								  var tamilan = document.getElementById("tamilan");
+								function anxietytamil(){
+									if(tamilan.paused){
+										tamilan.play();
+									}else{
+										tamilan.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="englishan.mp3" id="englishan"></audio>
 								<button onClick="anxietyenglish()">English</button>
 								<script>
-								  function anxietyenglish(){
-									document.getElementById("englishan").play();
+								  var englishan = document.getElementById("englishan");
+								function anxietyenglish(){
+									if(englishan.paused){
+										englishan.play();
+									}else{
+										englishan.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="HindiAN.mp3" id="hindian"></audio>
 								<button onClick="anxietyhindi()">Hindi</button>
 								<script>
-								  function anxietyhindi(){
-									document.getElementById("hindian").play();
+								  var hindian = document.getElementById("hindian");
+								function anxietyhindi(){
+									if(hindian.paused){
+										hindian.play();
+									}else{
+										hindian.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -252,24 +299,39 @@
 							    <audio src="TamilD.mp3" id="tamild"></audio> 
 								<button onClick="drugtamil()">Tamil</button>
 								<script>
-								  function drugtamil(){
-									document.getElementById("tamild").play();
+								  var tamild = document.getElementById("tamild");
+								function drugtamil(){
+									if(tamild.paused){
+										tamild.play();
+									}else{
+										tamild.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="englishd.mp3" id="englishd"></audio>
 								<button onClick="drugenglish()">English</button>
 								<script>
-								  function drugenglish(){
-									document.getElementById("englishd").play();
+								  var englishd = document.getElementById("englishd");
+								function drugenglish(){
+									if(englishd.paused){
+										englishd.play();
+									}else{
+										englishd.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="HindiDrugs.mp3" id="hindid"></audio>
 								<button onClick="drugshindi()">Hindi</button>
 								<script>
-								  function drugshindi(){
-									document.getElementById("hindid").play();
+								  var hindid = document.getElementById("hindid");
+								function drugshindi(){
+									if(hindid.paused){
+										hindid.play();
+									}else{
+										hindid.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -282,7 +344,7 @@
     					<div class="cost">
     						<h3>Sexual-Assault</h3>
     	
-    						<p>Regardless of age, gender, or orientation, the impact of sexual violence goes far beyond any physical injuries. The trauma of being raped or sexually assaulted can be shattering, leaving you feeling scared, ashamed, and alone or plagued by nightmares, flashbacks, and other unpleasant memories. It’s important to remember that what you’re experiencing is a normal reaction to trauma. Your feelings of helplessness, shame, defectiveness, and self-blame are symptoms, not reality. No matter how difficult it may seem, with these tips and techniques, you can come to terms with what happened, regain your sense of safety and trust, and learn to heal and move on with your life.Reach out to someone you trust. It's common to think that if you don't talk about your rape, it didn't really happen. But you can't heal when you're avoiding the truth.</p>
+    						<p>Regardless of age, gender, or orientation, the impact of sexual violence goes far beyond any physical injuries. The trauma of being raped or sexually assaulted can be shattering, leaving you feeling scared, ashamed, and alone or plagued by nightmares, flashbacks, and other unpleasant memories. It’s important to remember that what you’re experiencing is a normal reaction to trauma. Your feelings of helplessness, shame, defectiveness, and self-blame are symptoms, not reality. No matter how difficult it may seem, with these tips and techniques, you can come to terms with what happened, regain your sense of safety and trust, and learn to heal and move on with your life.Reach out to someone you trust. It's common to think that if you don't talk about your rape, it didn't really happen. But you can't heal when you're avoiding the truth.</p>
     					</div>
     				
     					<div class="info">
@@ -294,24 +356,39 @@
 							    <audio src="TamilSA.mp3" id="tamilsa"></audio> 
 								<button onClick="sexualassaulttamil()">Tamil</button>
 								<script>
-								  function sexualassaulttamil(){
-									document.getElementById("tamilsa").play();
-								  }
+								  var tamilsa = document.getElementById("tamilsa");
+								function sexualassaulttamil(){
+									if(tamilsa.paused){
+										tamilsa.play();
+									}else{
+										tamilsa.pause();
+									}
+								}	
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
-								<audio src="audio.mp3" id="myAudio"></audio>
-								<button onClick="playMyAudio()">English</button>
+								<audio src="EngSA.mp3" id="EngSA"></audio>
+								<button onClick="engSA()">English</button>
 								<script>
-								  function playMyAudio(){
-									document.getElementById("myAudio").play();
+								  var EngSA = document.getElementById("EngSA");
+								function engSA(){
+									if(EngSA.paused){
+										EngSA.play();
+									}else{
+										EngSA.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="HindiSA.mp3" id="hindisa"></audio>
 								<button onClick="sexualassaulthindi()">Hindi</button>
 								<script>
-								  function sexualassaulthindi(){
-									document.getElementById("hindisa").play();
+								  var hindisa = document.getElementById("hindisa");
+								function sexualassaulthindi(){
+									if(hindisa.paused){
+										hindisa.play();
+									}else{
+										hindisa.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -324,7 +401,7 @@
     					<div class="cost">
     						<h3>Depression</h3>
     	
-    						<p>Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.Try these coping strategies if you're feeling depressed.Stay in touch-Don't withdraw from life. Socialising can improve your mood. Keeping in touch with friends and family means you have someone to talk to when you feel low. Be more active-Take up some form of exercise. There's evidence that exercise can help lift your mood.Face your fears-Don't avoid the things you find difficult. When people feel low or anxious, they sometimes avoid talking to other people.</p>
+    						<p>Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.Try these coping strategies if you're feeling depressed.Stay in touch-Don't withdraw from life. Socialising can improve your mood. Keeping in touch with friends and family means you have someone to talk to when you feel low. Be more active-Take up some form of exercise. There's evidence that exercise can help lift your mood.Face your fears-Don't avoid the things you find difficult. When people feel low or anxious, they sometimes avoid talking to other people.</p>
     					</div>
     				
     					<div class="info">
@@ -336,24 +413,39 @@
 							    <audio src="TamilSD.mp3" id="TamilSD"></audio> 
 								<button onClick="depressiontamil()">Tamil</button>
 								<script>
-								  function depressiontamil(){
-									document.getElementById("TamilSD").play();
+								  var TamilSD = document.getElementById("TamilSD");
+								function depressiontamil(){
+									if(TamilSD.paused){
+										TamilSD.play();
+									}else{
+										TamilSD.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
-								<audio src="audio.mp3" id="myAudio"></audio>
-								<button onClick="playMyAudio()">English</button>
+								<audio src="EngSD.mp3" id="EngSD"></audio>
+								<button onClick="engSD()">English</button>
 								<script>
-								  function playMyAudio(){
-									document.getElementById("myAudio").play();
+								  var EngSD = document.getElementById("EngSD");
+								function engSD(){
+									if(EngSD.paused){
+										EngSD.play();
+									}else{
+										EngSD.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
 								<audio src="HindiSD.mp3" id="hindisd"></audio>
 								<button onClick="depressionhindi()">Hindi</button>
 								<script>
-								  function depressionhindi(){
-									document.getElementById("hindisd").play();
+								  var hindisd = document.getElementById("hindisd");
+								function depressionhindi(){
+									if(hindisd.paused){
+										hindisd.play();
+									}else{
+										hindisd.pause();
+									}
 								  }
 								</script> &nbsp; &nbsp; &nbsp; &nbsp;
 
