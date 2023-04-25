@@ -11,3 +11,4 @@ Educational resources: The website can provide educational resources, such as ar
 music therapy
 
 Chatbots: Chatbots can be incorporated into the website to offer personalized support, answer frequently asked questions, and provide resources to users who may be struggling with mental health issues.
+
